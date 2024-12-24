@@ -1,8 +1,8 @@
 export default 
 {
     "minecraft_version": "1.20.4", // supports up to 1.21.1
-    "host": "127.0.0.1", // or "localhost", "your.ip.address.here"
-    "port": 55916,
+    "host": "minecraft-server", // Container name from docker-compose.yml
+    "port": 25565,             // Standard server port
     "auth": "offline", // or "microsoft"
 
     // the mindserver manages all agents and hosts the UI
@@ -36,4 +36,4 @@ export default
     "verbose_commands": true, // show full command syntax
     "narrate_behavior": true, // chat simple automatic actions ('Picking up item!')
     "chat_bot_messages": true, // publicly chat messages to other bots
-}
+};
